@@ -2,7 +2,6 @@ const router = require("express").Router()
 const { createUserValidation } = require("../middlewares/user.validation")
 const { ApiAuthValidation } = require ("../middlewares/api.auth.validation")
 // const { refreshToken } = require ("../controllers/refresh.token")
-
 const { all, find, create, update, destroy , logout, login} = require("../controllers/user.controller")
 
 router.post("/", createUserValidation, create)
