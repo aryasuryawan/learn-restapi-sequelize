@@ -4,10 +4,10 @@ const { ApiAuthValidation } = require ("../middlewares/api.auth.validation")
 
 const { all, find, create, update, destroy } = require("../controllers/pelatihan.controller")
 
-router.post("/", ApiAuthValidation, create)
+router.post("/", create)
 router.get("/", ApiAuthValidation, all)
 router.get("/:id", ApiAuthValidation, find)
-router.put("/:id", ApiAuthValidation, update)
-router.delete("/:id", ApiAuthValidation, destroy)
+router.put("/:id", update)
+router.delete("/:id", destroy)
 
 module.exports = router
