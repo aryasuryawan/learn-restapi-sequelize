@@ -1,14 +1,4 @@
 # Simple Open API with Expressjs, Mysql dan Sequelize 
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 
 ## Tugas NodeJS - Kak Faizul harisenin.com 
 - Generate an express app, make sure it running and have a service that perform CRUD to database then push the project to your github with different repository.
@@ -25,18 +15,28 @@ Setiap pengakses akan diverifikasi secara sederhana melalui apikey dan secret (b
 
 ### Pelatihan
 `GET /api/pelatihan/` Menampilkan seluruh data pelatihan
+
 `GET /api/pelatihan/:id/` Menampilkan pelatihan tertentu berdasarkan id
+
 `POST /api/pelatihan/` Buat pelatihan baru
+
 `PUT /api/pelatihan/:id/` Update data pelatihan berdasarkan id
+
 `DELETE /api/pelatihan/:id/` Update data pelatihan berdasarkan id
 
 ### User
 `GET /api/user/` Menampilkan seluruh data user
+
 `GET /api/user/:id/` Menampilkan user tertentu berdasarkan id
+
 `POST /api/user/` Buat user baru
+
 `PUT /api/user/:id/` Update data user berdasarkan id
+
 `DELETE /api/user/:id/` Update data user berdasarkan id
+
 `POST /api/user/login` Untuk Login
+
 `POST /api/user/logout` Untuk Logout
 
 
